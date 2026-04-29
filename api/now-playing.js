@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     return;
   }
 
-  const username = "JoelJarcor";
+  const username = "hquiroga";
   const apiKey = process.env.LASTFM_API_KEY; // We will set this in Vercel
   const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json&limit=1`;
 
